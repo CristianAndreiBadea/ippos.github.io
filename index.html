@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>IPPOS Cybertech</title>
+  <meta name="description" content="IPPOS Cybertech — secure by design.">
+  <link rel="preload" href="IPPOS.jpg" as="image">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <main id="main" class="splash">
+    <div class="card" role="dialog" aria-label="IPPOS Cybertech splash">
+      <img class="logo" src="IPPOS.jpg" alt="IPPOS Cybertech logo" loading="eager" />
+
+      <h1 class="visually-hidden">IPPOS Cybertech</h1>
+    </div>
+
+    <footer class="footer">
+      © <span id="year"></span> IPPOS Cybertech
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
